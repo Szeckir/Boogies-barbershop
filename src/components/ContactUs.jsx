@@ -11,8 +11,7 @@ function ContactUs() {
             <ul className='flex flex-wrap gap-4 justify-center'>
                 {
                     contacts.map((contact, index) => (
-                        <a href={contact.href} target='_blank' key={index} className='border border-neutral-500 p-8 rounded-full hover:bg-slate-400'>
-                            
+                        <a href={contact.href} target='_blank' key={index} className='border border-neutral-500 p-8 rounded-full hover:bg-slate-400'>   
                             <li>{contact.name}</li>
                         </a>
                     ))

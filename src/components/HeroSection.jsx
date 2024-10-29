@@ -10,9 +10,9 @@ function HeroSection() {
                 <p className='mb-8'>for Men</p>
 
                 <div>
-                    <button className="px-14 py-1 bg-gradient-to-r from-orange-600 to-orange-900 font-bold rounded w-full">
+                    <a href='https://booksy.com/en-us/184757_boogies-barbershop_barber-shop_134763_orlando#ba_s=seo' target='_blank' className="px-14 py-1 bg-gradient-to-r from-orange-600 to-orange-900 font-bold rounded w-full">
                         Book Now
-                    </button>
+                    </a>
                 </div>
             </div>
             <video className="rounded-lg w-2/3 border border-orange-500 shadow-orange-400 mx-2 my-4" loop muted autoPlay={true}>
