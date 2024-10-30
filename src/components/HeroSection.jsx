@@ -3,7 +3,7 @@ import video from '../assets/videobarber.mp4'
 function HeroSection() {
   return (
     <div>
-        <div className="flex justify-between items-center flex-wrap">
+        <div className="flex justify-between items-center flex-wrap px-8">
             <div className="flex-row text-4xl italic font-bold">
                 <p className='mb-1'>Made</p>
                 <p className='mb-1'>Exclusively</p>
@@ -15,7 +15,7 @@ function HeroSection() {
                     </a>
                 </div>
             </div>
-            <video className="rounded-lg w-2/3 border border-orange-500 shadow-orange-400 mx-2 my-4" loop muted autoPlay={true}>
+            <video className="rounded-lg w-2/3 border border-orange-500 shadow-orange-400 my-4" loop muted autoPlay={true}>
                     <source src={video} type="video/mp4"/>
                     Your browser does not support the video tag
             </video>

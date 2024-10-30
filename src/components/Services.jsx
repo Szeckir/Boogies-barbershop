@@ -2,7 +2,7 @@ import {services} from '../constants/'
 
 const Services = () => {
   return (
-    <div className="flex w-full justify-center items-center mt-28 tracking-wide">
+    <div className="flex w-full justify-center items-center mt-20 tracking-wide">
       <div>
         <h2 className='text-5xl text-center italic'>Services</h2>
 

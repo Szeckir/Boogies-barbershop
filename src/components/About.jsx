@@ -17,7 +17,7 @@ function About() {
                         ))
                     }
                 </div>
-                <img src={boogies} alt="Boggies barbershop" className='w-2/3 rounded-md relative'/>
+                <img src={boogies} alt="Boggies barbershop" className='lg:w-1/2 md:w-1/2 sm:w-full rounded-md relative'/>
             </div>
         </div>
     </div>
